@@ -1,0 +1,46 @@
+body {
+    background-image: url(http://3.bp.blogspot.com/-Bw0T6OPhxsE/USy_rAW4YoI/AAAAAAAATzU/4SU2xVExNGw/s1600/Rocky+Beach+Desktop+Wallpapers+5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    width: 500px;
+}
+
+select {
+    font-family: 'Oswald', sans-serif;
+    border: #338AFF 3px solid;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 110%;
+    color: white;
+    border: none;
+    border-radius: 50px 0px;
+    height: 50px;
+    margin-bottom: 30px;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 800%;
+    animation: anime 10s linear infinite;
+}
+
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

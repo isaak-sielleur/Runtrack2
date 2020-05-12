@@ -1,0 +1,36 @@
+body {
+    background-color: #455075;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    width: 500px;
+}
+
+select {
+    font-family: 'Acme', sans-serif;
+    font-size: 200%;
+    background-color: #1E101C;
+    color: #85A2DE;
+    font-variant: small-caps;
+    text-align: center;
+    margin-bottom: 20px;
+    min-height: 30px;
+    border: none;
+}
+
+button {
+    font-variant: small-caps;
+    font-size: 200%;
+    background-color: #1E101C;
+    color: #85A2DE;
+    font-family: 'Acme', sans-serif;
+    min-height: 30px;
+    border: none;
+}
