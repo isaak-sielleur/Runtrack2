@@ -1,0 +1,1 @@
+SELECT COUNT (*) prenom, nom, naissance AS Femme FROM etudiants
